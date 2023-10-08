@@ -21,3 +21,7 @@
 .contactBackground {
   background: url("../public/assets/image/Contact.png") no-repeat fixed;
 }
+
+.backgroundColor1 {
+  background-color: #131313;
+}
