@@ -1,5 +1,6 @@
 import "./globals.css";
 import estedad from "@/public/assets/fonts/Estedad/fontEstedad";
+import SubMenu from "@/components/SubMenu";
 
 export const metadata = {
   title: "Next.js",
@@ -13,7 +14,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${estedad.className} font-sans`}>
-      <body>{children}</body>
+      <body>
+        {children}
+        <SubMenu />
+      </body>
     </html>
   );
 }
