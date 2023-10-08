@@ -1,4 +1,5 @@
 import "./globals.css";
+import estedad from "@/public/assets/fonts/Estedad/fontEstedad";
 
 export const metadata = {
   title: "Next.js",
@@ -11,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${estedad.className} font-sans`}>
       <body>{children}</body>
     </html>
   );

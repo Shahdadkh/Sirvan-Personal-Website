@@ -1,7 +1,7 @@
 const Gallery = () => {
   return (
     <>
-      <div>Gallery</div>
+      <div className="galleryBackground h-screen overflow-hidden"></div>
     </>
   );
 };

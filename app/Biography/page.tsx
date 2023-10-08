@@ -1,7 +1,7 @@
 const Biography = () => {
   return (
     <>
-      <div>Biography</div>
+      <div className="biographyBackground h-screen overflow-hidden"></div>
     </>
   );
 };

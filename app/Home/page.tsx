@@ -21,15 +21,11 @@ export default function Home() {
             <div className="text-white font-bold text-[120px]">
               سیروان خسروی
             </div>
-            <div className="text-white font-normal mt-5 w-9/12 text-2xl mx-auto text-center">
+            <div className="text-white font-light mt-5 w-8/12 text-2xl mx-auto text-center">
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
               استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
               در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
               نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
-              کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان
-              جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای
-              طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان
-              فارسی ایجاد کرد.
             </div>
           </div>
         </div>
@@ -39,7 +35,11 @@ export default function Home() {
           {subMenu
             .filter((name) => !name.url.includes(pathname))
             .map((menu, i) => (
-              <Link href={menu.url} key={i} className="text-white">
+              <Link
+                href={menu.url}
+                key={i}
+                className="text-white font-thin text-lg"
+              >
                 {`[ ${menu.name} ]`}
               </Link>
             ))}

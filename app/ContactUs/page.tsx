@@ -1,7 +1,7 @@
 const ContactUs = () => {
   return (
     <>
-      <div>ContactUs</div>
+      <div className="contactBackground h-screen overflow-hidden"></div>
     </>
   );
 };

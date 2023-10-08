@@ -1,7 +1,7 @@
 const Albums = () => {
   return (
     <>
-      <div>Albums</div>
+      <div className="albumsBackground h-screen overflow-hidden"></div>
     </>
   );
 };
